@@ -1,4 +1,4 @@
-# Python_Assignment_1
+ # Python_Assignment_1
 Vired Python Assignment number 1 
 Q1. In DevOps, security is a crucial aspect, and ensuring strong passwords is essential. Create a Python script to check the password strength. 
 
