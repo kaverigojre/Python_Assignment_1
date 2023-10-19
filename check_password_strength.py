@@ -1,7 +1,9 @@
 
 special_characters = "!@#$%^&*()-+?_=,<>/"
 def check_password_strength(password):
-    if password.isupper() or password.lower == False:
+    if any(u.isupper() for u in password) == False:
+        print("Password should contains both uppercase and lowercase letters")
+    if any(l.islower() for l in password)== False:
         print("Password should contains both uppercase and lowercase letters")
     passwordlenghth = len(password)
     if passwordlenghth<8:
@@ -14,7 +16,7 @@ def check_password_strength(password):
         print ("Password Updated Successfully!!")  
 
 
-check_password_strength("Testingpassword")
+check_password_strength("AKSHAYTAYADE1!")
      
 
 
